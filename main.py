@@ -27,4 +27,8 @@ def scope(num_of_days):
     print(num_of_days) #this variable is not the same as the function days_with_params
     print(unit)
 
-scope(1)
+# scope(1)
+
+# input user info and convert it to integer (int)
+num_days = int(input("You can enter a number of days to convert!\n"))
+days_with_params(num_days)
